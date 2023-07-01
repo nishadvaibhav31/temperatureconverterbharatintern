@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Inconsolata&family=Signika+Negative:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Signika+Negative:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Inconsolata&family=Lobster+Two&family=Signika+Negative:wght@300;600&display=swap');
+*{margin: 0;
+padding: 0;}
+body{
+    font-family: 'Signika Negative', sans-serif;
+   
+}
+.container{
+    height: 100vh;
+    width: 100%;
+   
+    background-image: url('bg.jpg');
+    
+    
+    background-repeat: repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.innercontainer{
+    backdrop-filter: blur(1.2px);
+    height: 65%;
+    border: 2px  solid rgb(24, 68, 107);
+    width: 60%;
+    position: absolute;
+    margin-top: 7%;
+    border-radius: 10%;
+    margin-left: 20%;
+    box-shadow: 1px 1px 1px 1px rgb(21, 57, 155);
+   
+}
+.innercontainer h1{
+    padding-top: 3%;
+    color: rgb(248, 249, 251);
+    font-family: 'IBM Plex Mono', monospace;
+    text-align: center;
+    font-size: 25px;
+    font-weight: lighter;
+    text-shadow: 2px 2px rgb(65, 4, 187);
+}
+.inputdiv{
+    /* border: 2px solid rgb(104, 189, 238); */
+    /* background: linear-gradient(-45deg,rgb(126, 177, 221),rgb(143, 143, 203)); */
+    width: 40%;
+    height: max-content;
+    margin-top:6%;
+    margin-left: 30%;
+    border-radius: 10%;
+  
+  
+}
+.text
+{
+    color: rgb(102, 212, 242);
+    font-family: 'IBM Plex Mono', monospace;
+    margin-left: 25%;
+    font-size: 25px;
+    font-weight: lighter;
+    text-shadow: 2px 2px rgb(65, 4, 187);
+}
+.inp{
+    font-size: 18px;
+    font-family: 'IBM Plex Mono', monospace;
+    border: 2px solid black;
+    height: 20pt;
+    color: rgb(13, 13, 13);
+    width: 100pt;
+    
+    
+    margin-left: 25%;
+    border-radius: 4px;
+}
+@media (max-width:1065px){
+    .inputdiv{
+        height: 10%;
+        margin-top: 15%;
+        width: 50%;
+        margin-left: 20%;
+    }
+}
+@media (max-width:514px){
+    .inputdiv{
+
+        margin-top: 15%;
+        width: 50%;
+        margin-left: 10%;
+    }
+}
+
